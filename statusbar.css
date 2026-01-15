@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-height: 3.125em;
+}
+
+body {
+  background: lightgoldenrodyellow;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+nav {
+  background: var(--nav-color, rebeccapurple);
+  display: grid;
+  height: var(--nav-height);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-inline: 1lh;
+}
+
+div {
+  display: grid;
+  gap: 1.5lh;
+  margin-inline: auto;
+  margin-trim: block;
+  max-width: min(50vw, 100%);
+  padding: calc(var(--nav-height) + 1.5lh) 1.5lh 1.5lh;
+}
+
+p {
+  margin: 0;
+}
+
+svg {
+  height: auto;
+  margin-block: 1.5lh;
+}
+
+a,
+a:visited {
+  color: white;
+  font-weight: bold;
+  font-size: 1.25em;
+}
