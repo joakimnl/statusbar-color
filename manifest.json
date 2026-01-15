@@ -2,7 +2,7 @@
   "name": "Statusbar",
   "short_name": "Statusbar",
   "description": "Statusbar",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "rebeccapurple",
   "icons": [
